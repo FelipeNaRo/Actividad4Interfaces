@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Actividad4_Felipe_Navarre_Main" android:id="@+id/men">
+    <item android:id="@+id/campeonato" android:title="Campeonato"/>
+   <item android:id="@+id/primeros" android:title="Finalistas">
+   <menu >
+            <item android:id="@+id/primero" android:title="Primero"/>
+            <item android:id="@+id/segundo" android:title="Segundo"/>
+   </menu>
+    </item>
+    <item android:id="@+id/semis" android:title="Semifinalistas">
+        <menu >
+            <item android:id="@+id/tercero" android:title="Tercero"/>
+            <item android:id="@+id/cuarto" android:title="Cuarto"/>
+        </menu>
+    </item>
+    <item android:id="@+id/quartos" android:title="Quartofinalistas">
+        <menu>
+    <group  android:checkableBehavior="single">
+        <item android:id="@+id/quinto" android:title="Quinto"/>
+        <item android:id="@+id/sexto" android:title="Sexto"/>
+        <item android:id="@+id/septimo" android:title="Septimo"/>
+        <item android:id="@+id/octavo" android:title="Octavo"/>
+    </group>
+        </menu>
+    </item>
+</menu>
